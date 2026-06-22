@@ -1,0 +1,30 @@
+﻿.venv/
+__pycache__/
+*.pyc
+
+# Raw datasets and generated training data
+lezzi/
+Annotation_files/
+data/clips/
+data/keypoints/
+data/yolo_coffee_room/
+data/*.zip
+*.zip
+*.avi
+*.mp4
+*.npy
+
+# Models and outputs
+models/*.pt
+models/*.pth
+videos/input/*
+videos/output/*
+logs/
+
+# Local notebooks/generated reports
+*.ipynb
+
+# Generated metadata
+data/labels_coffee_room.csv
+data/splits/
+
